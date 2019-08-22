@@ -8,16 +8,19 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    //Objetos Encapsulados
     private EditText editTextPeso;
     private EditText editTextAltura;
     private TextView textViewResultado;
 
+    //Método principal
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        //Vinculando os objetos com elementos de layout
         editTextPeso = findViewById(R.id.edit_text_peso);
         editTextAltura = findViewById(R.id.edit_text_altura);
         textViewResultado = findViewById(R.id.text_view_resultado);
