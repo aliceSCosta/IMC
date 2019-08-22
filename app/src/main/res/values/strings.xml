@@ -5,4 +5,5 @@
     <string name="dica_peso">Insira Peso</string>
     <string name="dica_altura">Insira Altura</string>
     <string name="btn">Calcular</string>
+    <color name="info">Informações</color>
 </resources>
